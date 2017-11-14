@@ -12,3 +12,6 @@ Actual: Completed FizzBuzz & Looping Triangle exercises in Chapter 2
 
 Day-4: Nov 7, 2017
 Actual: Completed Chess Board in Chapter 2
+
+Day-5: Nov 14, 2017
+Actual: Progressed through Chapter 3, Functions with few examples

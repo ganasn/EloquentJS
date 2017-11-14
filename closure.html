@@ -1,0 +1,22 @@
+<!-- Chapter 3, Closures  --> 
+
+<html>
+    <head>
+    </head>
+    <body onload="closure();">
+    </body>
+</html>
+
+<script>
+function closure(){
+    function multiplier(factor){
+        return function(number){
+            document.write("<BR>Number " + number);
+            document.write("<BR>Factor " + factor);
+            return number * factor;
+        };
+    }
+    var twice = multiplier(2); //factor
+    document.write("<BR>" + twice(5)); //number
+}
+</script>
