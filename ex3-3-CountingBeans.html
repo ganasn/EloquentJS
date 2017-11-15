@@ -1,0 +1,25 @@
+<script>
+    function countBs(str) {
+//        var temp = 0;
+//        var count = 0;
+//        for (temp = 0; temp < String(str).length; temp++) {
+//            if (String(str).charAt(temp) == "B")
+//                count++;            
+//        }
+//        document.write('Number of B in ' + String(str) + ': ' + String(count));
+        countChar(str,"B");
+    }
+    
+    function countChar(str, char) {
+        //var length = String(str).length;
+        var temp = 0;
+        var count = 0;
+        for (temp = 0; temp < String(str).length; temp++) {
+            if (String(str).charAt(temp) == char)
+                count++;            
+        }
+        document.write('Number of ' + char + ' in ' + String(str) + ': ' + String(count));
+    }
+</script>
+
+<body onload="countBs('Btring');"></body>
