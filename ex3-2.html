@@ -1,0 +1,20 @@
+<script>
+    function isEven(val) {
+        if (val == 1)
+            return false;
+        else if (val == 0)
+            return true;
+        else {
+            if (val < 0)
+                return isEven(val + 2);
+            else
+                return isEven(val - 2);
+        }
+    }
+    
+    function check() {
+        document.write(isEven(-2));    
+    }
+</script>
+
+<body onload="check();"></body>
