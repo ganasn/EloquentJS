@@ -19,3 +19,5 @@ Actual: Progressed through Chapter 3, Functions with few examples
 Day-6: Nov 15, 2017
 Actual: Completed rest of Chapter 3 & corresponding exercises
 
+Day-7: Nov 16, 2017
+Actual: Commenced Chapter 4 - Objects & Arrays - No Exercises
