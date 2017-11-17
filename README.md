@@ -20,4 +20,7 @@ Day-6: Nov 15, 2017
 Actual: Completed rest of Chapter 3 & corresponding exercises
 
 Day-7: Nov 16, 2017
-Actual: Commenced Chapter 4 - Objects & Arrays - No Exercises
+Actual: Commenced Chapter 4 - Objects & Arrays - No Exercises yet
+
+Day-8:  Nov 17, 2017
+Actual: Completed Chapter -4 text & commenced exercises

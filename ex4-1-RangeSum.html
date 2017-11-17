@@ -1,0 +1,29 @@
+<!-- Chapter 4 Exercise 1 Sum of a Range -->
+
+<script>
+    function callToSumRange() {
+        document.write("Sum of a Range<BR>");
+        document.write(sumRange(1,10,2));
+    }
+    
+    function sumRange(start, end, step) {
+        if (step == undefined) //step = 1;            
+            return ((end*(end+1)/2) - ((start-1)*start/2))
+        else {
+            var temp  = 0;
+            var total = 0;
+//            potentially use this "else" block of the code for all scenarios
+//            if (step == undefined) 
+//                step = 1;
+            for (temp = start; temp <= end; temp = temp + step) {
+                total += temp;
+            }
+            return total;
+        }
+        
+    }
+    
+    
+</script>
+
+<body onload="callToSumRange();"></body>
