@@ -1,0 +1,27 @@
+<!-- Chapter 4 Exercise 2 Reverse an Array In Place -->
+
+<script>
+    
+    var array = [1, 2, 3, 4, 5, 6, 7];
+    
+    function revArray() {
+        document.write("Reverse an array<BR>");
+        document.write("Original Array: " + array + " <BR>");
+        reverseArrayInPlace(array);
+        document.write("Reversed Array: " + array + " <BR>");
+    }
+    
+    function reverseArrayInPlace(origArray) {
+
+        console.log(origArray.length);
+        var temp = 0; 
+        for(temp = 0; temp < origArray.length; temp++) {
+            origArray.unshift(origArray.pop());
+        }
+        
+    }
+    
+    
+</script>
+
+<body onload="revArray();"></body>
