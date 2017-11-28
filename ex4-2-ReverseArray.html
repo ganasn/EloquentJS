@@ -1,0 +1,24 @@
+<!-- Chapter 4 Exercise 2 Reverse an Array -->
+
+<script>
+    function revArray() {
+        document.write("Reverse an array<BR>");
+        var array = [1, 2, 3, 4, 5, 6, 7];
+        document.write("Original Array: " + array + " <BR>");
+        document.write("Reversed Array: " + reverseArray(array) + " <BR>");
+    }
+    
+    function reverseArray(origArray) {
+        var newArray = [];
+        console.log(origArray.length);
+        var temp; 
+        for(temp = origArray.length - 1; temp >= 0 ; temp--) {
+            newArray.push(origArray[temp]);
+        }
+        return newArray;
+    }
+    
+    
+</script>
+
+<body onload="revArray();"></body>

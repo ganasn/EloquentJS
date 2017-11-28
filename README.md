@@ -24,3 +24,6 @@ Actual: Commenced Chapter 4 - Objects & Arrays - No Exercises yet
 
 Day-8:  Nov 17, 2017
 Actual: Completed Chapter -4 text & commenced exercises
+
+Day-9: Nov 28, 2017
+Actual: Completed chapter 4 exercises - reverse array, 
