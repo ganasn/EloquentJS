@@ -12,11 +12,13 @@
     }
     
     function reverseArrayInPlace(origArray) {
-
-        console.log(origArray.length);
+        console.log(array.length);
         var temp = 0; 
-        for(temp = 0; temp < origArray.length; temp++) {
-            origArray.unshift(origArray.pop());
+        var val = 0;
+        for(temp = 0; temp < Math.floor(array.length/2); temp++) {
+            val = array[temp];
+            array[temp] = array[array.length - 1 - temp];
+            array[array.length - 1 - temp] = val;
         }
         
     }
