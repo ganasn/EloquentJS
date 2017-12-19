@@ -1,0 +1,61 @@
+<!-- Chapter 4 Exercise 3 Array to List -->
+
+<script>
+    function deepEqual() {
+        var obj = null;
+        var ourPets = [
+{
+animalType: "cat",
+names: [
+"Meowzer",
+"Fluffy",
+"Kit-Cat"
+]
+},
+{
+animalType: "dog",
+names: [
+"Spot",
+"Bowser",
+"Frankie"
+]
+}
+];  
+        var yourPets = [
+{
+animalType: "cat",
+names: [
+"Meowzer",
+"Fluffy",
+"Kit-Cat"
+]
+},
+{
+animalType: "dog",
+names: [
+"Spot",
+"Bowser",
+"Frankie"
+]
+}
+];
+        var myPets = ourPets;
+        
+        if(ourPets == myPets){
+            document.write("same");
+        }
+        if(ourPets != yourPets) {
+            document.write("not same");
+        }
+        
+        
+        if(obj == null && typeof(obj) == "object"){
+            console.log("no work");
+        }
+    }
+
+
+    
+</script>
+
+<body onload="deepEqual();"></body>
