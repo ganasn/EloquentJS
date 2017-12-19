@@ -1,0 +1,40 @@
+<!-- Chapter 4 Exercise 3 Array to List -->
+
+<script>
+
+    var list = {
+        value : 1,
+        rest : {
+            value : 2,
+            rest : {
+                value : 3,
+                rest : null
+            }
+        }
+    };
+    
+    var array = [1, 2, 3, 4]
+    
+    var newList = null; 
+    
+    function arrayToList() {
+        document.write(array + array.length + "<BR>");
+        var arrayLength = array.length; 
+        for (var counter = 0; counter < arrayLength; counter ++) {
+//            Using array.length in place of arrayLength in the for loop will break the loop half-way as the .pop() removes elements from array. Hence, the assignment. 
+            document.write(counter + "<BR>");
+            newList = {
+                value: array.pop(),
+                rest: newList
+                };
+            document.write(newList + "<BR>");
+            console.log(newList);
+        }
+        document.write(newList);
+        console.log(newList);
+    }
+    
+    
+</script>
+
+<body onload="arrayToList();"></body>
