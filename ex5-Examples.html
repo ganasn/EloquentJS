@@ -1,0 +1,27 @@
+<!-- Chapter 5 Examples --> 
+
+<script>
+
+    function greaterThan(n){
+        return function(m) { 
+            console.log(m); 
+            console.log(n);
+            return m > n; 
+        };
+    }
+    
+    var greaterThan10 = greaterThan(10);
+    console.log(greaterThan10(11));
+    
+    function noisy(f) {
+        return function(arg) {
+            console.log("Calling with", arg);
+            var val = f(arg);
+            console.log("called with", arg, "& got", val);
+            return val;
+        };
+    }
+    
+</script>
+
+<body onload="noisy(Boolean)(1);"></body>
